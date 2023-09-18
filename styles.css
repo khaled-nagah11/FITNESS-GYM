@@ -21,8 +21,8 @@ header {
   padding: 5px 200px;
 }
 .logo img {
-  width: 150px;
-  height: 70px;
+  width: 130px;
+  height: 50px;
 }
 .navigation a {
   color: black;
@@ -1226,9 +1226,14 @@ footer .footer-content .footer-top {
   justify-content: space-between;
   margin-bottom: 15px;
 }
+
 .footer-content .footer-top .logo-details {
   color: #fff;
   font-size: 30px;
+}
+.footer-content .footer-top .logo-details img{
+  width: 160px;
+  height: 70px;
 }
 .footer-content .footer-top .media-icons {
   display: flex;
