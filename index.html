@@ -3,44 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <meta name="title" content="Fitness Gym" />
+    <meta name="description" content="Shape YourPerfect Body With Us" />
+    <meta name="keywords" content="gym,fitness" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Khaled Nagah" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="images/3.png"/>
+    <link rel="icon" type="image/x-icon" href="images/3.png" />
     <title>Fitness</title>
   </head>
   <body>
     <header>
-      <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="logo" />
-      </a>
-      <nav class="navigation">
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#Services">Services</a>
-        <a href="#Classes">Classes</a>
-        <a href="#Contact Us">Contact Us</a>
-      </nav>
-      <div>
-        <a href="#join" class="join-button">Join Now</a>
-      </div>
-      <div class="menu-icon" id="menu-icon">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#Services">Services</a>
+          <a href="#Classes">Classes</a>
+          <a href="#Contact Us">Contact</a>
+        </nav>
+        <div class="search-header">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search">
+        </div>
+        <button href="#join" class="join-button">Join Now</button>
+        <div class="menu-icon" id="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
       </div>
     </header>
     <!-- end header style -->
     <!-- main section -->
     <main class="mainsection" id="home">
+      <div class="container">
       <div class="content">
         <h2>
-          Shape Your<br />
-          <span>Perfect Body With Us</span>
+          <span>Perfect Workout Coach For</span>
+          Body Shape
         </h2>
-        <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
-          Accusantium aliquam nisi explicabo alias provident neque? <br />
+          Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit.
+          Accusantium aliquam nisi explicabo alias provident neque?
         </p>
         <br /><br />
         <a href="#learnmore">Learn More</a>
@@ -53,61 +67,50 @@
         />
         <img class="top-image" src="images/header-img.png" alt="Shape" />
       </div>
-    </main>
-    <!-- form under the main image -->
-    <section id="booking" class="booking-area p-relative">
-      <div class="container">
-        <form action="#" class="contact-form">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <ul>
-                <li>
-                  <div class="contact-field p-relative c-name">
-                    <img src="images/ad-icon1.png" />
-                    <input type="text" placeholder="Choose Your Location" />
-                  </div>
-                </li>
-                <li>
-                  <div class="contact-field p-relative c-name">
-                    <img src="images/ad-icon2.png" />
-                    <input type="text" placeholder="Choose Visiting Date" />
-                  </div>
-                </li>
-                <li>
-                  <div class="contact-field p-relative c-name">
-                    <img src="images/ad-icon3.png" />
-                    <input type="text" placeholder="Choose Your Gym" />
-                  </div>
-                </li>
-                <li>
-                  <div class="contact-field p-relative c-name">
-                    <img src="images/ad-icon4.png" />
-                    <input type="text" placeholder="Choose Your Gym Coach" />
-                  </div>
-                </li>
-                <li>
-                  <div class="slider-btn">
-                    <a
-                      href="#"
-                      class="btn ss-btn"
-                      data-animation="fadeInRight"
-                      data-delay=".8s"
-                      >Book Your Appointment</a
-                    >
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </form>
       </div>
-    </section>
+      
+      <div id="booking" class="booking-area">
+        <div class="container">
+          <form action="#" class="contact-form">
+                  <div class="contact-field c-name">
+                      <label for="location"><img src="images/ad-icon1.png" /></label>
+                      <input id="location" type="text" placeholder="Choose Your Location" />
+                  </div>
+                  <div class="contact-field c-name">
+                      <label for="date"><img src="images/ad-icon2.png" /></label>
+                      <input id="date" type="text" placeholder="Choose Visiting Date" />
+                  </div>
+                  <div class="contact-field c-name">
+                      <label for="gym"> <img src="images/ad-icon3.png" /></label>
+                      <input id="gym" type="text" placeholder="Choose Your Gym" />
+                  </div>
+                  <div class="contact-field c-name">
+                      <label for="coach"> <img src="images/ad-icon4.png" /></label>
+                      <input id="coach" type="text" placeholder="Choose Your Gym Coach" />
+                  </div>
+                  <div class="slider-btn">
+                      <a
+                        href="#"
+                        class="btn ss-btn"
+                        data-animation="fadeInRight"
+                        data-delay=".8s"
+                        >Book Your Appointment</a>
+                  </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+  
     <!-- end main section -->
+
     <!-- scrolup button -->
     <a id="scrollUp" href="#top"><i class="fas fa-level-up-alt"></i></a>
     <!-- begin about section -->
     <section class="about-section" id="about">
-      <h2>About Us</h2>
+      
+      <div class="container">
+        <h2>About Us</h2>
       <img src="images/circle-line.png" alt="circle-image" />
       <div class="about-section-container">
         <div class="about-image">
@@ -139,10 +142,12 @@
           <a href="#home">Read More</a>
         </div>
       </div>
+    </div>
     </section>
     <!-- end about section -->
     <!-- begin Services section -->
     <section class="Services-section" id="Services">
+      <div class="container">
       <h1>Our Services</h1>
       <img
         src="images/circle-line.png"
@@ -230,10 +235,12 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- end services section -->
     <!-- start our classes section -->
     <section class="classes-section" id="Classes">
+      <div class="container">
       <h2>Our Classes Schedule</h2>
       <img
         src="images/circle-line.png"
@@ -242,7 +249,7 @@
       />
       <div class="classes-schedule-table-area">
         <nav class="days-nav">
-          <a href="#Saturday">Saturday</a>
+          <a href="#Saturday" class="active">Saturday</a>
           <a href="#sunday">Sunday</a>
           <a href="#Monday">Monday</a>
           <a href="#Tuesday">Tuesday</a>
@@ -349,11 +356,12 @@
           </tr>
         </table>
       </div>
+    </div>
     </section>
     <!-- end the classes schedule section -->
     <!-- start additional section -->
-    <section class="additional-section">
-      <div class="additional-container">
+    <section class="additional-section" id="additional">
+      <div class="additional-container container">
         <div class="additional-content">
           <div class="additional-title">
             <h2>The Fitness You Will Enjoy <br />With Our Workout</h2>
@@ -387,6 +395,7 @@
     <!-- end additional section -->
     <!-- start price section -->
     <section class="prices-section" id="Prices">
+      <div class="container">
       <h2>Prices Table</h2>
       <img src="images/circle-line.png" alt="prices-image" id="prices-circle" />
       <div class="price-container">
@@ -435,7 +444,7 @@
               <li>Health Checkup</li>
             </ul>
             <div class="price-count">
-              <h2>$25.99 <span>/ Month</span></h2>
+              <h2>$99.99 <span>/ Month</span></h2>
             </div>
             <div class="pricing-btn">
               <a href="#Choose Plan" class="btn">Choose Plan</a>
@@ -461,7 +470,7 @@
               <li>Health Checkup</li>
             </ul>
             <div class="price-count">
-              <h2>$25.99 <span>/ Month</span></h2>
+              <h2>$149.99 <span>/ Month</span></h2>
             </div>
             <div class="pricing-btn">
               <a href="#Choose Plan" class="btn">Choose Plan</a>
@@ -469,17 +478,18 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- end price section -->
     <!--  begin our clint say section style  -->
-    <section class="client-says-section">
+    <section class="client-says-section" id="testimonials">
+      <div class="container">
       <h2>What Our Client Say's</h2>
       <img
         src="images/circle-line.png"
         alt="client-title-image"
         id="client-title-circle"
       />
-
       <div class="client-says-container">
         <div class="testimonial-card">
           <div class="say-text">
@@ -488,7 +498,7 @@
             <i class="fas fa-quote-right quote"></i>
           </div>
           <div class="client-card-footer">
-            <div class="person-image"></div>
+            <div class="person-image"><img src="images/client1.jpg" alt=""></div>
             <h3 class="person-name">Jane Doe</h3>
           </div>
         </div>
@@ -499,8 +509,8 @@
             <i class="fas fa-quote-right quote"></i>
           </div>
           <div class="client-card-footer">
-            <div class="person-image"></div>
-            <h3 class="person-name">Jane Doe</h3>
+            <div class="person-image"><img src="images/client2.jpg" alt=""></div>
+            <h3 class="person-name">Jennifer</h3>
           </div>
         </div>
         <div class="testimonial-card">
@@ -510,15 +520,17 @@
             <i class="fas fa-quote-right quote"></i>
           </div>
           <div class="client-card-footer">
-            <div class="person-image"></div>
-            <h3 class="person-name">Jane Doe</h3>
+            <div class="person-image"><img src="images/client3.jpg" alt=""></div>
+            <h3 class="person-name">Olivia</h3>
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- end our client says section -->
     <!-- start conact us section -->
     <section class="contact-us-section" id="Contact Us">
+      <div class="container">
       <h2>Contact Us</h2>
       <img
         src="images/circle-line.png"
@@ -538,7 +550,6 @@
                 <i class="fas fa-phone-alt"></i>
                 <div class="topic">Phone</div>
                 <div class="text-one">+2010 68 369 051</div>
-                <div class="text-two">+2010 68 369 051</div>
               </div>
               <div class="email details">
                 <i class="fas fa-envelope"></i>
@@ -573,6 +584,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- end contact us section -->
     <!-- start footer section -->
@@ -616,12 +628,6 @@
             <li><a href="#Services">Fitness</a></li>
             <li><a href="#Services">Health</a></li>
             <li><a href="#Services">Dance</a></li>
-          </ul>
-          <ul class="box">
-            <li class="link-name">Prices</li>
-            <li><a href="#Prices">Bronze</a></li>
-            <li><a href="#Prices">Silver</a></li>
-            <li><a href="#Prices">Gold</a></li>
           </ul>
           <ul class="box input-box">
             <li class="link-name">Subscribe</li>
@@ -682,4 +688,3 @@
     </script>
   </body>
 </html>
-
