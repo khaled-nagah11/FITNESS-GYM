@@ -5,45 +5,25 @@ FITNESS-GYM 🌱🍃
 
 ![gym-progect](https://github.com/khaled-nagah11/FITNESS-GYM/assets/141439674/aeea8ef0-33bd-4da4-a45d-59b8d6fe7880)
 
-# Project Name
 
-A concise and informative one-paragraph project description goes here.
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
+- [🔹Project Overview](#project-overview)
+- [🔹Features](#features)
 - [License](#license)
 
 ## Project Overview
 
-Provide a brief introduction to your project. Explain what it does, its purpose, and why it's useful.
+Fitness is a GYM website concerned with physical fitness and body building and good health💪💪🤸‍♀️.
 
-## Installation
+##features
 
-Include clear and concise installation instructions. Use code blocks when necessary. For example:
+🌐Frontend:
+  - Responsive navigation bar with menu icon toggling when user click on.
+  - Home page, about us section, services section, classes table, video for our
+     gym, our prices plan, blogs and contain many CSS animation.
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo.git
+##license
+Copyright (C) 2023 Z,H,N,M,Y Team ❤️
 
-# Navigate to the project directory
-cd your-repo
-
-# Install dependencies (if applicable)
-npm install
-```
-If you would like to contribute to this project, please read our [Contributing Guidelines](CONTRIBUTING.md).
-
-Additional tips for a perfect README:
-
-- Use clear and concise language.
-- Include badges (e.g., for build status, license, or version) if applicable.
-- Keep the README up to date as the project evolves.
-- Be welcoming and encourage collaboration.
-- Provide contact information or links to the project's website or documentation.
-
-Once you've created your README.md file, make sure to preview it on GitHub to ensure proper rendering. A well-structured README can greatly improve the adoption and collaboration on your project.
