@@ -26,6 +26,6 @@ Fitness is a GYM website concerned with physical fitness and body building and g
 
 ## 🔹License
 <p align="center">
-Copyright (C) 2023 K.nagah ❤✌️
+Copyright (C) 2023 K.nagah. ✌️
 </p>
 
