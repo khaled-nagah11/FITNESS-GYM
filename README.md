@@ -35,3 +35,6 @@ cd your-repo
 
 # Install dependencies (if applicable)
 npm install
+
+
+If you would like to contribute to this project, please read our [Contributing Guidelines](CONTRIBUTING.md).
