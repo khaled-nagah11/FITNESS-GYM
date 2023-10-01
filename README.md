@@ -9,21 +9,21 @@ FITNESS-GYM 🌱🍃
 
 ## Table of Contents
 
-- [🔹Project Overview](#project-overview)
-- [🔹Features](#features)
+- [Project Overview](#project-overview)
+- [Features](#features)
 - [License](#license)
 
-## Project Overview
+## 🔹Project Overview
 
 Fitness is a GYM website concerned with physical fitness and body building and good health💪💪🤸‍♀️.
 
-##features
+## 🔹Features
 
 🌐Frontend:
   - Responsive navigation bar with menu icon toggling when user click on.
   - Home page, about us section, services section, classes table, video for our
      gym, our prices plan, blogs and contain many CSS animation.
 
-##license
-Copyright (C) 2023 Z,H,N,M,Y Team ❤️
+## 🔹License
+Copyright (C) 2023 K.nagah ❤️
 
