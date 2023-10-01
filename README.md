@@ -25,5 +25,7 @@ Fitness is a GYM website concerned with physical fitness and body building and g
      gym, our prices plan, blogs and contain many CSS animation.
 
 ## 🔹License
-Copyright (C) 2023 K.nagah ❤️
+<p align="center">
+Copyright (C) 2023 K.nagah ❤✌️
+</p>
 
